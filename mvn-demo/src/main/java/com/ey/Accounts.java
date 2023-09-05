@@ -1,3 +1,4 @@
+package com.ey;
 
 public class Accounts {
 	private double balance;

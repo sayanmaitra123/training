@@ -34,10 +34,11 @@ public class FlightMenu {
 	private static void byRoute() {
 		// TODO Auto-generated method stub
 		Scanner console=new Scanner(System.in);
-		System.out.print("Enter Route ");
-		String org=console.nextLine();
-		String dst=console.nextLine();
-		dao.route(org,dst);
+		System.out.print("Enter Route no. ");
+//		String org=console.nextLine();
+//		String dst=console.nextLine();
+		int rno=console.nextInt();
+		dao.route(rno);
 		//console.close();
 		
 		
@@ -61,7 +62,7 @@ public class FlightMenu {
 		System.out.println("Enter Flight Code");
 		int code=sc.nextInt();
 		
-		System.out.println(dao.code(code));
+		System.out.println(dao.g);
 		//sc.close();
 		
 		
@@ -80,6 +81,6 @@ public class FlightMenu {
 //		
 //		Product p=new Product(code, name, price);
 //		dao.add(p);
-	}
+	
 
 }

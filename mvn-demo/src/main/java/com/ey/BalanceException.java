@@ -1,3 +1,4 @@
+package com.ey;
 
 public class BalanceException extends Exception {
 

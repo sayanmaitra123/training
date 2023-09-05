@@ -1,8 +1,13 @@
+package com.ey.test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import com.ey.Accounts;
+import com.ey.BalanceException;
 
 public class TestAccounts {
 	private Accounts acnt;
