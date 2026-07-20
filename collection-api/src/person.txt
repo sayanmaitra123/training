@@ -1,3 +1,0 @@
-name=Sayan
-age=21
-city=Bengaluru
